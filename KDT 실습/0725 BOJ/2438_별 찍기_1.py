@@ -10,3 +10,4 @@ for i in range(1, T+1):
     star = '*'
     star = star * i
     print(star)
+    

@@ -30,4 +30,3 @@ else:
 # else에 그 외의 나머지의 경우는 min값을 찾아 result에 할당하고
 # print 한다
 print(result)
-

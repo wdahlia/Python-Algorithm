@@ -1,6 +1,6 @@
 
 import sys
-sys.stdin = open('슈퍼마리오.txt')
+sys.stdin = open('2851.txt')
 
 # 값은 나오는데, 백준에서는 틀리다고 나옴 왜 그럴까?
 # 아마 변수값 지정을 안해줘서 그런듯 싶다.

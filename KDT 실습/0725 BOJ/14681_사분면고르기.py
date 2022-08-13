@@ -1,3 +1,4 @@
+
 # 'Quadrant n은 '제n사분면'이라는 뜻이다.
 # x > 0, y > 0 이면 1
 # x > 0, y < 0 이면 4
@@ -18,3 +19,4 @@ else:
         print(2)
     else:
         print(3)
+        

@@ -19,6 +19,4 @@ while 1:
 
 print(len(num_list))
 
-
 # 68ms
-

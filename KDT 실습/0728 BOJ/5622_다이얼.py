@@ -1,9 +1,8 @@
-# 리스트로 푸는 법
 
+# 리스트로 푸는 법
 alpha_word = input()
 
 dial_list = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
-
 cnt = 0
 
 for word in alpha_word:
@@ -12,12 +11,10 @@ for word in alpha_word:
             cnt += i + 3
 
 print(cnt)
-
 # 68ms
 
 
 # dictionary로 하는 방법도 존재
-
 alpha_word = input()
 
 dial_dict = {
@@ -38,6 +35,4 @@ for word in alpha_word:
             sum += dial_dict[dial]
 
 print(sum)
-
 # 72ms 
-

@@ -1,6 +1,6 @@
-import sys
-sys.stdin = open('오타맨고창영.txt')
 
+import sys
+sys.stdin = open('2711.txt')
 
 T = int(input())
 
@@ -30,4 +30,3 @@ for _ in range(T):
     idx = int(idx)
     print(typo[:idx-1], end ='')
     print(typo[idx:])
-

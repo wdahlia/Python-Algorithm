@@ -1,5 +1,6 @@
+
 import sys
-sys.stdin = open('유학금지.txt')
+sys.stdin = open('2789.txt')
 
 word = input()
 for char in 'CAMBRIDGE':

@@ -1,3 +1,4 @@
+
 word = input()
 
 croatia_alph = ['c=' , 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']

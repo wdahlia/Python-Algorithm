@@ -11,4 +11,3 @@ elif a < b:
     print('<')
 else:
     print('==')
-

@@ -1,3 +1,4 @@
+
 # a, b, c 입력하여 int로 변환 후 곱셈한 결과를 str으로 변환하여 multiply_abc 변수에 저장
 a = int(input())
 b = int(input())
@@ -17,3 +18,4 @@ for i in range(10):
         if int(char) == i:
             cnt += 1
     print(cnt)
+    

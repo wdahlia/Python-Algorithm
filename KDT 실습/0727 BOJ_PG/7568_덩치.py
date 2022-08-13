@@ -1,3 +1,4 @@
+
 N = int(input())
 
 participant = []

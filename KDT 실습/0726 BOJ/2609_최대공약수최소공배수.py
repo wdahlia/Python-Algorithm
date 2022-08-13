@@ -1,3 +1,4 @@
+
 # 두 개의 자연수를 입력받아 최대 공약수와 최소 공배수를 출력하는 프로그램을 작성하시오.
 
 # 한 칸 띄운 것을 기준으로 input() 받은것을 나누어 int로 변환 후 n1, n2에 할당
@@ -25,6 +26,7 @@ def gcf_lcm():
                 result_li.append(n1_li)
 
     gcf = max(result_li)
+    
     print(gcf)
 
     # 이어서 최소 공배수 구하는 법 - 각 input한 n1 n2를 최대공약수로 나눈 후 최대공약수와 곱해줌
