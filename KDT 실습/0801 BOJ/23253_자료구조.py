@@ -1,5 +1,6 @@
+
 import sys
-sys.stdin = open('23253_자료구조.txt')
+sys.stdin = open('23253.txt')
 
 
 N, M = list(map(int, input().split()))
@@ -20,3 +21,4 @@ if 'No' in result:
 else:
     if len(result) == 0:
         print('Yes')
+        

@@ -1,5 +1,6 @@
+
 import sys
-sys.stdin = open('11286_절대값힙.txt')
+sys.stdin = open('11286.txt')
 
 # import sys
 # input = sys.stdin.readline
@@ -20,9 +21,8 @@ for _ in range(T):
         else:
             heapq.heappush(heap, (x, x))
     else:
-        if len(heap) == 0: #len(heap)으로 표현해도 무방
+        if len(heap) == 0:                  # len(heap)으로 표현해도 무방
             print(0)
         else:
             result = heapq.heappop(heap)
             print(result[1])
-

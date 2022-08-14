@@ -12,11 +12,11 @@ cards_n = list(map(int, input().split()))
 M = int(input())
 cards_m = list(map(int, input().split()))
 
-for card2 in cards_m:
-    cnt = 0
-    for card1 in cards_n:
-        if card2 == card1:
-            cnt += 1
+for card2 in cards_m:       
+    cnt = 0                 # 다음 인덱스로 넘어가기전에 cnt 초기화
+    for card1 in cards_n:  
+        if card2 == card1:  # 같다면
+            cnt += 1        # 1씩 더해준다
     print(cnt, end= ' ')
 # 시간초과 - 이중 for문은 안될듯
 
@@ -32,4 +32,4 @@ for card1 in cards_n:
         result[card1] += 1
 
 for i in range(M):
-    print(result.get(cards_m[i]), end = ' ')
+    print(result.get(cards_m[i]), end = ' ')    # key 값에 해당하는 value 값들을 출력

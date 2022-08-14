@@ -1,5 +1,6 @@
+
 import sys
-sys.stdin = open('2750_수정렬하기.txt')
+sys.stdin = open('2750.txt')
 
 import heapq
 

@@ -1,3 +1,4 @@
+
 import sys
 sys.stdin = open('9012_괄호.txt')
 
@@ -20,5 +21,3 @@ for _ in range(T):
         print('NO')
     else:
         print('YES')
-
-    

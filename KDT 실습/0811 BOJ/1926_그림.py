@@ -52,6 +52,7 @@ for r in range(v):
         if matrix[r][c] == 1 and visited[r][c] == False:
             result.append(dfs(r, c))
 
+print(result)
 print(len(result))
 
 if len(result) == 0:

@@ -1,6 +1,6 @@
-import sys
-sys.stdin = open('5063_TGN.txt')
 
+import sys
+sys.stdin = open('5063.txt')
 
 T = int(input())
 
@@ -13,3 +13,4 @@ for _ in range(T):
         print('advertise')
     else:
         print('do not advertise')
+        

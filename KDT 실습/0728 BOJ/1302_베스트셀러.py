@@ -6,6 +6,7 @@ sys.stdin = open('1302.txt')
 # 책의 제목들, 소문자로만 이루어짐
 # 가장 많이 팔린 책의 제목 출력
 # 여러개일 경우 사전 순으로
+# 가장 앞서는 제목만 출력하면 됨
 
 books = dict()
 
@@ -18,7 +19,6 @@ for _ in range(N):
     else:
         books[b_name] += 1
 
-# 문제 이해 잘못 가장 앞서는 제목만 출력하면 됨
 max_ = max(books.values())
 result = sorted(books.items())
 

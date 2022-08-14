@@ -1,6 +1,6 @@
-import sys
-sys.stdin = open('25192_곰곰이.txt')
 
+import sys
+sys.stdin = open('25192.txt')
 
 T = int(input())
 
@@ -13,12 +13,11 @@ for _ in range(T):
         n = len(user_set)
         cnt += n
         user_set = set()
-        
+
     else:
         user_set.add(user_name)
 
 print(len(user_set) + cnt)
-
 # 4044ms
 
 
@@ -29,6 +28,7 @@ for _ in range(T):
 
     if user_name == 'ENTER':
         user_set = set()
+        
     else:
         if user_name not in user_set:
             user_set.add(user_name)

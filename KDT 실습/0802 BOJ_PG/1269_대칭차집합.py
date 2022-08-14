@@ -1,6 +1,6 @@
-import sys
-sys.stdin = open('1269_대칭차집합.txt')
 
+import sys
+sys.stdin = open('1269.txt')
 
 A, B = map(int, input().split())
 
