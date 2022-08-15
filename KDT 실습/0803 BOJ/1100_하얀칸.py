@@ -1,6 +1,6 @@
 
 import sys
-sys.stdin = open('1100_하얀칸.txt')
+sys.stdin = open('1100.txt')
 
 matrix = [list(input()) for _ in range(8)]
 
@@ -13,8 +13,3 @@ for i in range(8):
                 w_horse += 1
 
 print(w_horse)
-
-
-
-
-            

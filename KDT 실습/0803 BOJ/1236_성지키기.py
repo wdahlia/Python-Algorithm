@@ -1,9 +1,11 @@
+
 import sys
-sys.stdin = open('1236_성지키기.txt')
+sys.stdin = open('1236.txt')
+
 # '.'는 빈칸 'X'는 경비원
 # 모든 행과 모든 열에 한명 이상의 경비원
 
-N, M = list(map(int, input().split())) # 성의 행(N)과 열(M)의 크기가 주어짐
+N, M = list(map(int, input().split()))      # 성의 행(N)과 열(M)의 크기가 주어짐
 
 matrix = [list(input()) for _ in range(N)]
 
@@ -26,4 +28,3 @@ for j in range(M):
 
 
 print(max(n, cnt))
-    

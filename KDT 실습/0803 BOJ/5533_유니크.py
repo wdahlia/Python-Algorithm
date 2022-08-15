@@ -1,5 +1,6 @@
+
 import sys
-sys.stdin = open('5533_유니크.txt')
+sys.stdin = open('5533.txt')
 
 # 게임을 3번 했다고 했으므로 열의 개수 3
 # 행의 개수는 input받은 N의 개수일 것

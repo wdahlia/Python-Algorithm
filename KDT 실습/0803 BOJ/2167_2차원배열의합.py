@@ -1,5 +1,6 @@
+
 import sys
-sys.stdin = open('2167_2차원배열의합.txt')
+sys.stdin = open('2167.txt')
 
 n, m = list(map(int, input().split()))
 
@@ -15,21 +16,3 @@ for _ in range(k):
             sum_result += matrix[row][column]
     
     print(sum_result)
-
-            
-
-
-# matrix1 = []
-# for _ in range(n+1):
-#     matrix1.append([0] * (m+1))
-
-# for i in range(n):
-#     for j in range(1, m+1):
-#         matrix1[i][j] = matrix[i-1][j-1] + matrix1[i
-
-
-# print(matrix1)
-
-
-
-    # matrix[i][j]
