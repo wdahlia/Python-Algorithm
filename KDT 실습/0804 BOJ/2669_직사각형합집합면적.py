@@ -1,5 +1,6 @@
+
 import sys
-sys.stdin = open('2669_직사각형합집합면적.txt')
+sys.stdin = open('2669.txt')
 # 네 개의 직사각형이 차지하는 면적을 출력
 # 즉, 겹치는 부분이 있다면 제거 해주어야 함
 # 한 좌표당 면적은 1이다를 활용하자
@@ -18,5 +19,3 @@ for _ in range(4):
                 pass
 
 print(cnt)
-            
-

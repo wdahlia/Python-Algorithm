@@ -1,8 +1,8 @@
+
 import sys
-sys.stdin = open('9455_박스.txt')
+sys.stdin = open('9455.txt')
 
 from pprint import pprint
-
 
 T = int(input())
 
@@ -20,5 +20,3 @@ for _ in range(T):
                 sum_cnt += cnt
     
     print(sum_cnt)
-
-
