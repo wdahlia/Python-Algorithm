@@ -14,3 +14,4 @@ for _ in range(T):
         print(f'{word1} & {word2} are anagrams.')
     else:
         print(f'{word1} & {word2} are NOT anagrams.')
+        
