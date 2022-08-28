@@ -6,7 +6,6 @@ sys.stdin = open('2805.txt')
 
 T = int(input())
 
-
 for i in range(1, T+1):
 
     N = int(input())
@@ -30,6 +29,4 @@ for i in range(1, T+1):
             a -= 1
 
     print(f'#{i} {result}')
-
-            
-        
+       

@@ -1,8 +1,10 @@
 
 import sys
 sys.stdin = open('1012.txt')
+
+from pprint import pprint
+
 def dfs(x, y):
-    global cnt
 
     stack = [(x, y)]
 
@@ -18,7 +20,6 @@ def dfs(x, y):
                     continue
                 else:
                     visited[nx][ny] = True
-                    cnt += 1
                     stack.append((nx, ny))
 
     return cnt
@@ -39,12 +40,14 @@ for _ in range(T):
         r, c = map(int, input().split())
         matrix[r][c] = 1                     # 좌표값에 1 넣어준다
 
-    result = []
+ 
+    result = [4, 1]
     cnt = 0
     for i in range(N):                       
         for j in range(M):
             if matrix[i][j] == 1 and visited[i][j] != True:
+                cnt += 1
                 visited[i][j] = True                            # i와 j는 좌표값
-                result.append(dfs(i, j))
+                # result.append(dfs(i, j))
                 
-    print(len(result))
+    print(cnt)
