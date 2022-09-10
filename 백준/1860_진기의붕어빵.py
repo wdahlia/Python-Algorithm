@@ -6,7 +6,6 @@ sys.stdin = open('1860.txt')
 
 # 0초 부터 붕어빵 만들어서 M초의 시간 들이면 K개의 붕어빵 만들 수 있다
 
-
 T = int(input())
 
 for i in range(1, T+1):
@@ -23,3 +22,4 @@ for i in range(1, T+1):
             break
             
     print(f'#{i} {result}')
+    
