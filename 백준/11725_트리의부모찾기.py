@@ -24,3 +24,4 @@ dfs(1)                      # 1번 부터 시작
 
 for j in range(2, N+1):
     print(parent[j])
+    
