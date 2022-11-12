@@ -3,12 +3,22 @@ import sys
 sys.stdin = open('1068.txt')
 
 # 리프 노드의 개수 출력
+input = sys.stdin.readline
 
-N = int(input())
-nodes = list(map(int, input().split()))
-erase_n = int(input())
+def dfs(num, array):
+    array[num] = -2
+    for i in range(len(array)):
+        if num == array[i]:
+            dfs(i, array)
 
-graph = [[] for _ in range(N)]
+n = int(input())
+array = list(map(int, input().split()))
+k = int(input())
+cnt = 0
 
-for i in range(N):
-    pass
+dfs(k, array)
+
+for i in range(len(array)):
+    if array[i] != -2 and i not in array:
+        cnt += 1
+print(cnt)
